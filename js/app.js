@@ -15,9 +15,10 @@ the_times_of_india.addEventListener("click", function () {
                 <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
             </div>`;
   newsAccordion.innerHTML += str;
-  setTimeout(() => {
-    fetchApi();
-  }, 100);
+  // setTimeout(() => {
+  //   fetchApi();
+  // }, 100);
+  fetchApi();
 });
 
 let google_news = document.getElementById("google-news");
